@@ -1,0 +1,4 @@
+﻿{
+	"ambientesDisponibles": [ "dev", "qa", "staging" ],
+	"ambiente": "qa"
+}

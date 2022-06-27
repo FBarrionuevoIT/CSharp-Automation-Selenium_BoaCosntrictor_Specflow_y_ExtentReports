@@ -1,0 +1,165 @@
+{
+	"prod": {
+		"linkAmbiente": "https://prod.link.com/",
+		"credenciales": {
+			"personas": [
+				{
+					"username": "pmsalas5787",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario",
+					"id": ""
+				},
+				{
+					"username": "fbarrionuevo5787",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario",
+					"id": ""
+				}
+			],
+			"empresas": [
+				{
+					"username": "test983",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario"
+				},
+				{
+					"username": "ingresar un usuario",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario"
+				}
+			]
+		}
+	},
+	"dev": {
+		"linkAmbiente": "https://dev.link.com/",
+		"credenciales": {
+			"personas": [
+				{
+					"username": "pmsalas5787",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario",
+					"id": ""
+				},
+				{
+					"username": "fbarrionuevo5787",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario",
+					"id": ""
+				}
+			],
+			"empresas": [
+				{
+					"username": "test983",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario"
+				},
+				{
+					"username": "ingresar un usuario",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario"
+				}
+			]
+		}
+	},
+	"qa": {
+		"linkAmbiente": "https://qa.link.com/",
+		"credenciales": {
+			"personas": [
+				{
+					"username": "pmsalas5787",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario",
+					"id": ""
+				},
+				{
+					"username": "fbarrionuevo5787",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario",
+					"id": ""
+				}
+			],
+			"empresas": [
+				{
+					"username": "test983",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario"
+				},
+				{
+					"username": "ingresar un usuario",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario"
+				}
+			]
+		}
+	},
+	"staging": {
+		"linkAmbiente": "https://staging.link.com/",
+		"credenciales": {
+			"personas": [
+				{
+					"username": "pmsalas5787",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario",
+					"id": ""
+				},
+				{
+					"username": "fbarrionuevo5787",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario",
+					"id": ""
+				}
+			],
+			"empresas": [
+				{
+					"username": "test983",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario"
+				},
+				{
+					"username": "ingresar un usuario",
+					"password": "Password01",
+					"notas": "colocar notas sobre el usuario"
+				}
+			]
+		}
+	},
+	"International_CheckingAccount": {
+		"transactionType": "Internacional",
+		"productType": "Cuenta corriente",
+		"currency": "UYU",
+		"beneficiaryName": "pepito de prueba",
+		"documentType": "Cédula de Identidad",
+		"documentNumber": "87654321",
+		"bank": "test bank",
+		"beneficiaryAddress": "algun lugar",
+		"beneficiaryCountry": "Argentina",
+		"bankCountry": "Argentina",
+		"beneficiaryEmail": "mail@gmail.com",
+		"beneficiaryAlias": "pepito prueba"
+	},
+	"International_Loan": {
+		"transactionType": "Internacional",
+		"productType": "Préstamo",
+		"currency": "UYU",
+		"beneficiaryName": "pepito de prueba en Préstamo",
+		"documentType": "Cédula de Identidad",
+		"documentNumber": "87654321",
+		"bank": "test bank",
+		"beneficiaryAddress": "algun lugar",
+		"beneficiaryCountry": "Argentina",
+		"bankCountry": "Argentina",
+		"beneficiaryEmail": "mail@gmail.com",
+		"beneficiaryAlias": "pepito prueba"
+	},
+	"datosRegistro": {
+		"documentType": "Cédula de Identidad",
+		"documentNumber": "65489715",
+		"name": "pedroooo",
+		"surname": "salaszz",
+		"email": "bnklyauto+{0}@gmail.com",
+		"phoneNumber": "24121200",
+		"mobileNumber": "093311149",
+		"username": "ext_pmsalas{0}",
+		"allowSummary": false
+	}
+}

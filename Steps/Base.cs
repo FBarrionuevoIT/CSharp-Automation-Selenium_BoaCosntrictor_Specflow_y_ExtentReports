@@ -1,6 +1,8 @@
 ﻿using Boa.Constrictor.Logging;
 using Boa.Constrictor.Screenplay;
 using Boa.Constrictor.WebDriver;
+using Helpers;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
@@ -21,6 +23,14 @@ namespace BoaCosntrictorYSpecflowConExtentReports.Steps
         public static IWebDriver driver;
         public static ChromeOptions options = new();
         public static StringWriter stringWriter;
+
+        public static string ambiente = !(TestContext.Parameters["Ambiente"] is null) ? TestContext.Parameters["Ambiente"].ToString() : SessionData.ConfigAmbiente();
+
+        public static dynamic UserData = SessionData.DaTosDePrueba()[ambiente];
+
+        public string webUrl = UserData.linkAmbiente;
+        public string portalUserName = UserData.Portal.personas[0].username;
+        public string portalPasswd = UserData.Portal.personas[0].password;
 
         [BeforeScenario(Order = 1)]
         public static void setUp()
