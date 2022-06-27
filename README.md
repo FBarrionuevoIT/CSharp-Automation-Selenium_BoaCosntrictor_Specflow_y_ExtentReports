@@ -118,9 +118,7 @@ steps:
 
 # Demo del proyecto
 
-https://user-images.githubusercontent.com/71787981/175858131-f083e523-5674-47aa-833d-c1d839427b59.mp4
-
-
+https://user-images.githubusercontent.com/71787981/175948532-b2bddff5-7bc2-45f7-838d-f320f511b073.mp4
 
 
 |   |   |
