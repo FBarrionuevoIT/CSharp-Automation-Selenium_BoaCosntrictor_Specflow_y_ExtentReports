@@ -76,7 +76,7 @@ namespace BoaCosntrictorYSpecflowConExtentReports.Resources.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Buscar en la seccion Women")]
         [NUnit.Framework.CategoryAttribute("TagsRelacionados")]
-        [NUnit.Framework.TestCaseAttribute("fbarrionuevo@arbusta.net", "arbusta2020", "Blouse", "1", null)]
+        [NUnit.Framework.TestCaseAttribute("fbarrionuevo@yopmail.com", "yopmail2020", "Blouse", "1", null)]
         public void BuscarEnLaSeccionWomen(string usuario, string contrasena, string producto, string cantidad, string[] exampleTags)
         {
             string[] @__tags = new string[] {

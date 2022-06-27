@@ -30,7 +30,7 @@ namespace Helpers
         public static string ConfigAmbiente()
         {
             dynamic obj;
-            string path = "../../../Ambiente.json";
+            string path = "../../../Resources/Ambiente.json";
             //string propiedad = "App";
             var jsonText = File.ReadAllText(path);
             obj = JObject.Parse(jsonText);

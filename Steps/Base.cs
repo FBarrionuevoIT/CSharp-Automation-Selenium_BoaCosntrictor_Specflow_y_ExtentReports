@@ -29,8 +29,8 @@ namespace BoaCosntrictorYSpecflowConExtentReports.Steps
         public static dynamic UserData = SessionData.DaTosDePrueba()[ambiente];
 
         public string webUrl = UserData.linkAmbiente;
-        public string portalUserName = UserData.Portal.personas[0].username;
-        public string portalPasswd = UserData.Portal.personas[0].password;
+        public string portalUserName = UserData.credenciales.personas[0].username;
+        public string portalPasswd = UserData.credenciales.personas[0].password;
 
         [BeforeScenario(Order = 1)]
         public static void setUp()

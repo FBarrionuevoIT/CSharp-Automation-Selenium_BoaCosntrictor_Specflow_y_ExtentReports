@@ -114,3 +114,4 @@ Z:\Fernando\Mis Documentos\Visual Studio 2019\Projects\Testing automation\BoaCos
 Z:\Fernando\Mis Documentos\Visual Studio 2019\Projects\Testing automation\BoaCosntrictorYSpecflowConExtentReports\obj\Debug\net5.0\BoaCosntrictorYSpecflowConExtentReports.pdb
 Z:\Fernando\Mis Documentos\Visual Studio 2019\Projects\Testing automation\BoaCosntrictorYSpecflowConExtentReports\obj\Debug\net5.0\BoaCosntrictorYSpecflowConExtentReports.genruntimeconfig.cache
 Z:\Fernando\Mis Documentos\Visual Studio 2019\Projects\Testing automation\BoaCosntrictorYSpecflowConExtentReports\bin\Debug\net5.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+Z:\Fernando\Mis Documentos\Visual Studio 2019\Projects\Testing automation\BoaCosntrictorYSpecflowConExtentReports\obj\Debug\net5.0\BoaCosntrictorYSpecflowConExtentReports.csproj.AssemblyReference.cache

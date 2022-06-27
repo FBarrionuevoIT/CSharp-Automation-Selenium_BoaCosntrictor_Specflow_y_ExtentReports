@@ -8,4 +8,4 @@
 
     Examples: 
       | usuario                  | contraseña  | producto | cantidad |
-      | fbarrionuevo@arbusta.net | arbusta2020 | Blouse   |        1 |
+      | fbarrionuevo@yopmail.com | yopmail2020 | Blouse   |        1 |
