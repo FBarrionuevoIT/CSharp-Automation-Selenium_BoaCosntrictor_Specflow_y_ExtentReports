@@ -31,12 +31,12 @@ Un proyecto de automatizacion funcional en C# donde se usa Selenium, Boa.Cosntri
 # Template de pipeline en Azure
 
 ```
-pool: 'Bankingly Agent Pool'
+pool: 'Customer Agent Pool'
 
 
 parameters: 
 - name: environment
-  displayName: "Select the environment to test"
+  displayName: "Selecciona el ambiente de los test"
   type: string
   values:
 #  - certification
@@ -47,7 +47,7 @@ parameters:
   - qa
 #  - qa2
 - name: layer
-  displayName: "Select the layer to test"
+  displayName: "Selecciona la capa de los test"
   type: string
   values:
   - all
@@ -62,9 +62,9 @@ trigger:
 - devops/task/3143_QA_Tests_Pipeline
 
 variables:
-    solutionDir: '$(System.DefaultWorkingDirectory)/WV/Bankingly.TestAutomation'
-    solution: '**/Bankingly.TestAutomation/*.sln'
-    project: '**/Bankingly.TestAutomation/Bankingly/*.csproj'
+    solutionDir: '$(System.DefaultWorkingDirectory)/DirPrincipal/nombre.proyecto'
+    solution: '**/nombre.proyecto/*.sln'
+    project: '**/nombre.proyecto/proyecto/*.csproj'
     buildPlatform: 'Any CPU'
 #    buildConfiguration: 'Release'
     buildConfiguration: 'Debug'
@@ -99,7 +99,7 @@ steps:
 #>> It Works but the test result aren't published.
 - task: CmdLine@2
   inputs:
-    script: 'dotnet test $(solutionDir)\Bankingly.sln --logger trx --filter:"$(layerFilter)" $(TestRunParameters2) '
+    script: 'dotnet test $(solutionDir)\nombreProyecto.sln --logger trx --filter:"$(layerFilter)" $(TestRunParameters2) '
 
 #>> Task to publish the results of the execution instead of viewing them from the previous task.
 
@@ -110,7 +110,13 @@ steps:
     testResultsFiles: '**/*.trx'
 ```
 
+#Demo del proyecto
+
+https://user-images.githubusercontent.com/71787981/175858131-f083e523-5674-47aa-833d-c1d839427b59.mp4
+
+
+
 
 |   |   |
 | :------------ | :------------ |
-|  <img src="" width="128"> | **Automatizado por Fernando Barrionuevo.**  |
+|  <img src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/csharp-logo.png" width="128"> | **Automatizado por Fernando Barrionuevo.**  |
