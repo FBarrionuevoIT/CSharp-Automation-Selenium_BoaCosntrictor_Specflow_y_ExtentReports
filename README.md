@@ -26,9 +26,15 @@ Un proyecto de automatizacion funcional en C# donde se usa Selenium, Boa.Cosntri
 ![](Images/Package-17.png)\
 ![](Images/Package-18.png)\
 
+# Linea de comandos de ejecución
 
+El siguiente ejemplo ejecutará todos los escenarios que sean de QA y contengan "Web" entre sus tags.
 
-# Template de pipeline en Azure
+```
+dotnet test --filter "Category=QA | Category=Web" --logger trx
+```
+
+# Ejemplo de Template de pipeline en Azure para la selección de ambiente y capa de ejecución
 
 ```
 pool: 'Customer Agent Pool'
@@ -110,7 +116,7 @@ steps:
     testResultsFiles: '**/*.trx'
 ```
 
-#Demo del proyecto
+# Demo del proyecto
 
 https://user-images.githubusercontent.com/71787981/175858131-f083e523-5674-47aa-833d-c1d839427b59.mp4
 
